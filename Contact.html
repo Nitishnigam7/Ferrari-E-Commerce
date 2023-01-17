@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Red Store</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+
+    
+
+</head>
+<body>
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/Ferrari-removebg-preview.png" width="125px" alt="Redstore">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/cart.png" alt="cart" width="30px" height="30px">
+        <img src="images/menu.png"  class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+<!-- image -->
+<div><h4> Profile</h4> </div>
+
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis nihil fugit repellendus deleniti, perferendis consequatur fuga sunt nesciunt veritatis iste quo aspernatur inventore officiis, consequuntur aliquam neque soluta deserunt.
+                </h3>
+                <img src="Nitish.png.jpeg" alt="Nitish Nigam">
+                <h2> Nitish Nigam</h2>
+            </div>
+            <!-- <div>
+                <img src="Nitish.png.jpeg" alt="">
+            </div> -->
+            <!-- <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis nihil fugit repellendus deleniti, perferendis consequatur fuga sunt nesciunt veritatis iste quo aspernatur inventore officiis, consequuntur aliquam neque soluta deserunt.
+                </p>
+                <h3>Nitish Nigam</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis nihil fugit repellendus deleniti, perferendis consequatur fuga sunt nesciunt veritatis iste quo aspernatur inventore officiis, consequuntur aliquam neque soluta deserunt.
+                </p>
+                <img src="Nitish.png.jpeg" alt="Nitish Nigam">
+                <h3> Nitish Nigam</h3>
+            </div> -->
+            
+        </div>
+        
+    </div>
+
+    <div class="responsive">
+        <img class="img-fluid" src="Nitish.png.jpeg" alt="">
+    </div>
+    
+ 
+
+
+    <div>
+        <h4>
+            Email-id : Nitishnigam2007@gmail.com
+        </h4>
+    </div>
+<!-- brands -->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="">
+            </div><div class="col-5">
+                <img src="images/logo-paypal.png" alt="">
+            </div><div class="col-5">
+                <img src="images/logo-philips.png" alt="">
+            </div><div class="col-5">
+                <img src="images/logo-white.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download Our App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" >
+                    <img src="images/app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png" alt="">
+                <p> Our Purpose Is To Sustainably Make The Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Coupons</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Folllow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                    <li>Instagram</li>
+                    <li>Google</li>
+                </ul>
+           </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023- Nitish Nigam</p>
+    </div>
+</div>
+
+<!-- js for toggle menu -->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+
+    MenuItems.style.maxHeight = "0px"
+
+    function menutoggle(){
+        if( MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    
+
+
+    }
+</script>
+
+<!-- js fortoggle form -->
+
+<!-- <script>
+
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var Indicator = document.getElementById("Indicator");
+
+    function register(){
+
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+    
+    }
+    function login(){
+
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+
+
+    }
+
+
+
+</script>
+
+ -->
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.img-fluid{
+    width: 80%;
+    height: auto;
+    
+    
+}
+.responsive{
+    margin-left: 15%;
+    margin-right: 0;
+    margin-top: 10px;
+}
+@media screen and (max-width:500px){
+    .responsive{
+        padding: 0px 20px;
+        background-color: rgb(139, 9, 50);
+    }
+
+}
